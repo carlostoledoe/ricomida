@@ -35,6 +35,7 @@ $('#enviarCorreo').on('click', function () {
 window.sr = ScrollReveal();
 sr.reveal('#scroll01', {
     duration: 2500,
+    delay: 200, 
     origin: 'left',
     distance: '120px'
 });
@@ -42,6 +43,7 @@ sr.reveal('#scroll01', {
 window.sr = ScrollReveal();
 sr.reveal('#scroll02', {
     duration: 2500,
+    delay: 200, 
     origin: 'right',
     distance: '120px'
 });
@@ -49,5 +51,5 @@ sr.reveal('#scroll02', {
 window.sr = ScrollReveal();
 sr.reveal('#scroll03', {
     duration: 2000,
-    delay: 100
+    delay: 200
 });
