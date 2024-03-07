@@ -28,3 +28,26 @@ $('.card-title').on('click', esconder_titulo)
 // Alerta enviado con exito compacta
 $('#enviarCorreo').on('click', function () {
   alert('Email enviado con éxito')})
+
+
+// Scroll Reveal 
+
+window.sr = ScrollReveal();
+sr.reveal('#scroll01', {
+    duration: 2500,
+    origin: 'left',
+    distance: '120px'
+});
+
+window.sr = ScrollReveal();
+sr.reveal('#scroll02', {
+    duration: 2500,
+    origin: 'right',
+    distance: '120px'
+});
+
+window.sr = ScrollReveal();
+sr.reveal('#scroll03', {
+    duration: 2000,
+    delay: 100
+});
